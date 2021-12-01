@@ -1,0 +1,48 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Vector string",
+      "program": "${workspaceFolder}/unit_test_vector_string.bin",
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Vector char",
+      "program": "${workspaceFolder}/unit_test_vector_char.bin",
+      "args": ["input.txt"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Grade tokenize",
+      "program": "${workspaceFolder}/tokenize.bin",
+      "args": ["txt/input.txt"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Grade dictionary",
+      "program": "${workspaceFolder}/dictionary.bin",
+      "args": ["txt/input"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Word count",
+      "program": "${workspaceFolder}/wordcount.bin",
+      "args": ["txt/input1.txt"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
